@@ -12,4 +12,4 @@ COPY default /etc/nginx/sites-available/default
 COPY . .
 
 EXPOSE 7777
-CMD nginx; voila --Voila.tornado_settings='{"headers":{"Content-Security-Policy":"frame-ancestors self *" }}' calstats.ipynb --theme=dark --port 8866 --no-browser --enable_nbextensions=True
+CMD nginx; export CALSTATS_CREDENTIALS="/root/app/credentials.json"; voila --Voila.tornado_settings='{"headers":{"Content-Security-Policy":"frame-ancestors self *" }}' calstats.ipynb --theme=dark --port 8866 --no-browser --enable_nbextensions=True
