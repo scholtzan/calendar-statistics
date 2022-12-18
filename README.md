@@ -1,13 +1,13 @@
 # Calendar Statistics
 
-[todo: link blog post]
+[_Read the "Tracking My Time" blog post for more information._](https://scholtzan.net/blog/tracking-my-time/)
 
 Calendars are a convenient mechanism for tracking how time is spent. This repository contains tooling to generate a dashboard that provides insight into activity event data recorded through Google Calendar. 
 
 The dashboard shows information about:
 * How much time was spent on each category?
 * What activities was most time spent on?
-* How many context switches did occur in a gived time period?
+* How many context switches occur in a given time period?
 * ...
 
 Activity data for specific time periods can be analyzed through dashboard filters. Different types of aggregations are automatically computed, such as daily, weekly or overall results for the selected time period. It is possible to see how much absolute time has been spent as well as a relative breakdown (%).
