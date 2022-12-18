@@ -12,7 +12,7 @@ The dashboard shows information about:
 
 Activity data for specific time periods can be analyzed through dashboard filters. Different types of aggregations are automatically computed, such as daily, weekly or overall results for the selected time period. It is possible to see how much absolute time has been spent as well as a relative breakdown (%).
 
-<img src="https://github.com/scholtzan/calendar-statistics/raw/main/img/dashboard.png" width="1000">
+<img src="https://github.com/scholtzan/calendar-statistics/raw/main/docs/dashboard.png" width="1000">
 *Dashboard*
 
 
@@ -22,7 +22,7 @@ Activity data can be tracked through multiple Google Calendars. Each calendar re
 
 As an example, of what this would look like for a specific day with multiple tracked activities:
 
-<img src="https://github.com/scholtzan/calendar-statistics/raw/main/img/calendar.png" width="1000">
+<img src="https://github.com/scholtzan/calendar-statistics/raw/main/docs/calendar.png" width="1000">
 
 This example has two calendars which divide activities into _Meetings_ and _Focused Work_. Several areas that, refer to projects or other efforts (_Project Hydra_, _Project Copernicu_, _Knowledge Sharing_, ...) are being defined to further categorize specific activities.
 
